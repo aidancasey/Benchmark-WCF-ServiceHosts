@@ -8,8 +8,11 @@ A  test rig to bench mark the performance of a WCF service hosted as a console a
 The results – 
 
 Migrate 500 clients sequentially using console app as WCF host			1641 seconds
+
 Migrate 500 clients sequentially using windows service as WCF host		350 seconds		
+
 Migrate 500 clients in parallel (threadpool) using windows service    	196 seconds	
+
 
 To set up
 *********
