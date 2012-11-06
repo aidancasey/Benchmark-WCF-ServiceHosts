@@ -1,0 +1,17 @@
+C:\Code\MultiThreadedConversion\MigrationPrototype\Client\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Code\MultiThreadedConversion\MigrationPrototype\Client\bin\Release\Service.exe
+C:\Code\MultiThreadedConversion\MigrationPrototype\Client\bin\Release\Service.pdb
+C:\Code\MultiThreadedConversion\MigrationPrototype\Client\obj\x86\Release\Service.exe
+C:\Code\MultiThreadedConversion\MigrationPrototype\Client\obj\x86\Release\Service.pdb
+C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Release\Service.exe.config
+C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Release\Service.exe
+C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Release\Service.pdb
+C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Release\Service.Contract.dll
+C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Release\ServiceImplementation.dll
+C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Release\DataAccess.dll
+C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Release\Service.Contract.pdb
+C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Release\ServiceImplementation.pdb
+C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Release\DataAccess.pdb
+C:\Code\MultiThreadedConversion\MigrationPrototype\Service\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Code\MultiThreadedConversion\MigrationPrototype\Service\obj\x86\Release\Service.exe
+C:\Code\MultiThreadedConversion\MigrationPrototype\Service\obj\x86\Release\Service.pdb

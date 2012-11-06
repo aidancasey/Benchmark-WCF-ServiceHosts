@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MigrationDbModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="MigrationDbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Table1" EntityType="MigrationDbModel.Table1" />
+    <EntitySet Name="Table2" EntityType="MigrationDbModel.Table2" />
+    <EntitySet Name="Table3" EntityType="MigrationDbModel.Table3" />
+  </EntityContainer>
+  <EntityType Name="Table1">
+    <Key>
+      <PropertyRef Name="col1" />
+    </Key>
+    <Property Name="col1" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="col2" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="col3" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="col4" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="col5" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="col6" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="col7" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="col8" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="col9" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="col10" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="col11" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="col12" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="Table2">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="Int32" Name="ManagedBy" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ACN" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Phone" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Website" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="AddressLine1" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="AddressLine2" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="Postcode" Nullable="false" />
+    <Property Type="String" Name="City" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="State" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Type" Nullable="false" MaxLength="1" FixedLength="false" Unicode="true" />
+    <Property Type="Decimal" Name="Reserves" Nullable="false" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="Table3">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Desc" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="Col1" Nullable="false" />
+    <Property Type="Int32" Name="Col2" Nullable="false" />
+    <Property Type="Int32" Name="Col3" Nullable="false" />
+    <Property Type="Int32" Name="Col4" Nullable="false" />
+    <Property Type="Int32" Name="Col5" Nullable="false" />
+    <Property Type="Int32" Name="Col6" Nullable="false" />
+    <Property Type="Int32" Name="Col7" Nullable="false" />
+    <Property Type="Int32" Name="Col8" Nullable="false" />
+    <Property Type="Int32" Name="Col9" Nullable="false" />
+    <Property Type="Int32" Name="Col10" Nullable="false" />
+    <Property Type="Int32" Name="Col11" Nullable="false" />
+    <Property Type="Int32" Name="Col12" Nullable="false" />
+    <Property Type="Int32" Name="Col13" Nullable="false" />
+    <Property Type="Int32" Name="Col14" Nullable="false" />
+    <Property Type="DateTime" Name="Col15" Nullable="false" />
+  </EntityType>
+</Schema>

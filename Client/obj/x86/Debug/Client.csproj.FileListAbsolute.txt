@@ -1,0 +1,6 @@
+C:\Code\MultiThreadedConversion\MigrationPrototype\Client\bin\Debug\Client.exe
+C:\Code\MultiThreadedConversion\MigrationPrototype\Client\bin\Debug\Client.pdb
+C:\Code\MultiThreadedConversion\MigrationPrototype\Client\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Code\MultiThreadedConversion\MigrationPrototype\Client\obj\x86\Debug\Client.exe
+C:\Code\MultiThreadedConversion\MigrationPrototype\Client\obj\x86\Debug\Client.pdb
+C:\Code\MultiThreadedConversion\MigrationPrototype\Client\bin\Debug\Client.exe.config

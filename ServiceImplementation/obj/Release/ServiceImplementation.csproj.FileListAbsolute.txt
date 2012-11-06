@@ -1,0 +1,9 @@
+C:\Code\MultiThreadedConversion\MigrationPrototype\ServiceImplementation\bin\Release\ServiceImplementation.dll
+C:\Code\MultiThreadedConversion\MigrationPrototype\ServiceImplementation\bin\Release\ServiceImplementation.pdb
+C:\Code\MultiThreadedConversion\MigrationPrototype\ServiceImplementation\bin\Release\DataAccess.dll
+C:\Code\MultiThreadedConversion\MigrationPrototype\ServiceImplementation\bin\Release\Service.Contract.dll
+C:\Code\MultiThreadedConversion\MigrationPrototype\ServiceImplementation\bin\Release\DataAccess.pdb
+C:\Code\MultiThreadedConversion\MigrationPrototype\ServiceImplementation\bin\Release\Service.Contract.pdb
+C:\Code\MultiThreadedConversion\MigrationPrototype\ServiceImplementation\obj\Release\ResolveAssemblyReference.cache
+C:\Code\MultiThreadedConversion\MigrationPrototype\ServiceImplementation\obj\Release\ServiceImplementation.dll
+C:\Code\MultiThreadedConversion\MigrationPrototype\ServiceImplementation\obj\Release\ServiceImplementation.pdb

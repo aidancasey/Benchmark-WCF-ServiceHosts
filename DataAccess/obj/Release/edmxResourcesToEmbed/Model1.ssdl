@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MigrationDbModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="MigrationDbModelStoreContainer">
+    <EntitySet Name="Table1" EntityType="MigrationDbModel.Store.Table1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Table2" EntityType="MigrationDbModel.Store.Table2" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Table3" EntityType="MigrationDbModel.Store.Table3" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Table1">
+    <Key>
+      <PropertyRef Name="col1" />
+    </Key>
+    <Property Name="col1" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="col2" Type="nvarchar" MaxLength="50" />
+    <Property Name="col3" Type="nvarchar" MaxLength="50" />
+    <Property Name="col4" Type="nvarchar" MaxLength="50" />
+    <Property Name="col5" Type="nvarchar" MaxLength="50" />
+    <Property Name="col6" Type="nvarchar" MaxLength="50" />
+    <Property Name="col7" Type="nvarchar" MaxLength="50" />
+    <Property Name="col8" Type="nvarchar" MaxLength="50" />
+    <Property Name="col9" Type="nvarchar" MaxLength="50" />
+    <Property Name="col10" Type="nvarchar" MaxLength="50" />
+    <Property Name="col11" Type="nvarchar" MaxLength="50" />
+    <Property Name="col12" Type="smalldatetime" />
+  </EntityType>
+  <EntityType Name="Table2">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ManagedBy" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="ACN" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Phone" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Website" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="AddressLine1" Type="nvarchar" MaxLength="50" />
+    <Property Name="AddressLine2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Postcode" Type="int" Nullable="false" />
+    <Property Name="City" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="State" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Type" Type="nvarchar" Nullable="false" MaxLength="1" />
+    <Property Name="Reserves" Type="decimal" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Table3">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Desc" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Col1" Type="int" Nullable="false" />
+    <Property Name="Col2" Type="int" Nullable="false" />
+    <Property Name="Col3" Type="int" Nullable="false" />
+    <Property Name="Col4" Type="int" Nullable="false" />
+    <Property Name="Col5" Type="int" Nullable="false" />
+    <Property Name="Col6" Type="int" Nullable="false" />
+    <Property Name="Col7" Type="int" Nullable="false" />
+    <Property Name="Col8" Type="int" Nullable="false" />
+    <Property Name="Col9" Type="int" Nullable="false" />
+    <Property Name="Col10" Type="int" Nullable="false" />
+    <Property Name="Col11" Type="int" Nullable="false" />
+    <Property Name="Col12" Type="int" Nullable="false" />
+    <Property Name="Col13" Type="int" Nullable="false" />
+    <Property Name="Col14" Type="int" Nullable="false" />
+    <Property Name="Col15" Type="date" Nullable="false" />
+  </EntityType>
+</Schema>

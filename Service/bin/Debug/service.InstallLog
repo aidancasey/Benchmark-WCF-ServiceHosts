@@ -1,0 +1,116 @@
+﻿Uninstalling assembly 'C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.InstallLog
+   assemblypath = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe
+Removing EventLog source MYOBDataMigration.
+Warning: The source MYOBDataMigration is not registered on the local machine.
+Service MYOBDataMigration is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.InstallLog
+   assemblypath = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe
+Installing service MYOBDataMigration...
+Service MYOBDataMigration has been successfully installed.
+Creating EventLog source MYOBDataMigration in log Application...
+Committing assembly 'C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.InstallLog
+   assemblypath = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe
+Uninstalling assembly 'C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.InstallLog
+   assemblypath = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe
+Removing EventLog source MYOBDataMigration.
+Service MYOBDataMigration is being removed from the system...
+Service MYOBDataMigration was successfully removed from the system.
+Installing assembly 'C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.InstallLog
+   assemblypath = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe
+Installing service MYOBDataMigration...
+Service MYOBDataMigration has been successfully installed.
+Creating EventLog source MYOBDataMigration in log Application...
+Committing assembly 'C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.InstallLog
+   assemblypath = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe
+Uninstalling assembly 'C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.InstallLog
+   assemblypath = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe
+Removing EventLog source MYOBDataMigration.
+Service MYOBDataMigration is being removed from the system...
+Service MYOBDataMigration was successfully removed from the system.
+Installing assembly 'C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.InstallLog
+   assemblypath = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe
+Installing service MYOBDataMigration...
+Service MYOBDataMigration has been successfully installed.
+Creating EventLog source MYOBDataMigration in log Application...
+Committing assembly 'C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.InstallLog
+   assemblypath = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe
+Uninstalling assembly 'C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.InstallLog
+   assemblypath = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe
+Removing EventLog source MYOBDataMigration.
+Service MYOBDataMigration is being removed from the system...
+Service MYOBDataMigration was successfully removed from the system.
+Installing assembly 'C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.InstallLog
+   assemblypath = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe
+Installing service MYOBDataMigration...
+Service MYOBDataMigration has been successfully installed.
+Creating EventLog source MYOBDataMigration in log Application...
+Committing assembly 'C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.InstallLog
+   assemblypath = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe
+Uninstalling assembly 'C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.InstallLog
+   assemblypath = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe
+Removing EventLog source MYOBDataMigration.
+Service MYOBDataMigration is being removed from the system...
+Service MYOBDataMigration was successfully removed from the system.
+Installing assembly 'C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.InstallLog
+   assemblypath = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe
+Installing service MYOBDataMigration...
+Service MYOBDataMigration has been successfully installed.
+Creating EventLog source MYOBDataMigration in log Application...
+Committing assembly 'C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.InstallLog
+   assemblypath = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe
+Uninstalling assembly 'C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.InstallLog
+   assemblypath = C:\Code\MultiThreadedConversion\MigrationPrototype\Service\bin\Debug\service.exe
+Removing EventLog source MYOBDataMigration.
+Service MYOBDataMigration is being removed from the system...
+Service MYOBDataMigration was successfully removed from the system.

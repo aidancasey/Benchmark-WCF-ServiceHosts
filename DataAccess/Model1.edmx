@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="MigrationDbModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="MigrationDbModelStoreContainer">
+          <EntitySet Name="Table1" EntityType="MigrationDbModel.Store.Table1" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Table2" EntityType="MigrationDbModel.Store.Table2" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Table3" EntityType="MigrationDbModel.Store.Table3" store:Type="Tables" Schema="dbo" />
+        </EntityContainer>
+        <EntityType Name="Table1">
+          <Key>
+            <PropertyRef Name="col1" />
+          </Key>
+          <Property Name="col1" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="col2" Type="nvarchar" MaxLength="50" />
+          <Property Name="col3" Type="nvarchar" MaxLength="50" />
+          <Property Name="col4" Type="nvarchar" MaxLength="50" />
+          <Property Name="col5" Type="nvarchar" MaxLength="50" />
+          <Property Name="col6" Type="nvarchar" MaxLength="50" />
+          <Property Name="col7" Type="nvarchar" MaxLength="50" />
+          <Property Name="col8" Type="nvarchar" MaxLength="50" />
+          <Property Name="col9" Type="nvarchar" MaxLength="50" />
+          <Property Name="col10" Type="nvarchar" MaxLength="50" />
+          <Property Name="col11" Type="nvarchar" MaxLength="50" />
+          <Property Name="col12" Type="smalldatetime" />
+        </EntityType>
+        <EntityType Name="Table2">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ManagedBy" Type="int" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="200" />
+          <Property Name="ACN" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Phone" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Website" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="AddressLine1" Type="nvarchar" MaxLength="50" />
+          <Property Name="AddressLine2" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Postcode" Type="int" Nullable="false" />
+          <Property Name="City" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="State" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Type" Type="nvarchar" Nullable="false" MaxLength="1" />
+          <Property Name="Reserves" Type="decimal" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Table3">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Desc" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Col1" Type="int" Nullable="false" />
+          <Property Name="Col2" Type="int" Nullable="false" />
+          <Property Name="Col3" Type="int" Nullable="false" />
+          <Property Name="Col4" Type="int" Nullable="false" />
+          <Property Name="Col5" Type="int" Nullable="false" />
+          <Property Name="Col6" Type="int" Nullable="false" />
+          <Property Name="Col7" Type="int" Nullable="false" />
+          <Property Name="Col8" Type="int" Nullable="false" />
+          <Property Name="Col9" Type="int" Nullable="false" />
+          <Property Name="Col10" Type="int" Nullable="false" />
+          <Property Name="Col11" Type="int" Nullable="false" />
+          <Property Name="Col12" Type="int" Nullable="false" />
+          <Property Name="Col13" Type="int" Nullable="false" />
+          <Property Name="Col14" Type="int" Nullable="false" />
+          <Property Name="Col15" Type="date" Nullable="false" />
+        </EntityType>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="MigrationDbModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="MigrationDbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Table1" EntityType="MigrationDbModel.Table1" />
+          <EntitySet Name="Table2" EntityType="MigrationDbModel.Table2" />
+          <EntitySet Name="Table3" EntityType="MigrationDbModel.Table3" />
+        </EntityContainer>
+        <EntityType Name="Table1">
+          <Key>
+            <PropertyRef Name="col1" />
+          </Key>
+          <Property Name="col1" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="col2" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="col3" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="col4" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="col5" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="col6" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="col7" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="col8" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="col9" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="col10" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="col11" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="col12" Type="DateTime" />
+        </EntityType>
+        <EntityType Name="Table2">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" />
+          <Property Type="Int32" Name="ManagedBy" Nullable="false" />
+          <Property Type="String" Name="Name" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="ACN" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Phone" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Website" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="AddressLine1" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="AddressLine2" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="Postcode" Nullable="false" />
+          <Property Type="String" Name="City" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="State" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Type" Nullable="false" MaxLength="1" FixedLength="false" Unicode="true" />
+          <Property Type="Decimal" Name="Reserves" Nullable="false" Precision="18" Scale="0" />
+        </EntityType>
+        <EntityType Name="Table3">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Desc" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="Col1" Nullable="false" />
+          <Property Type="Int32" Name="Col2" Nullable="false" />
+          <Property Type="Int32" Name="Col3" Nullable="false" />
+          <Property Type="Int32" Name="Col4" Nullable="false" />
+          <Property Type="Int32" Name="Col5" Nullable="false" />
+          <Property Type="Int32" Name="Col6" Nullable="false" />
+          <Property Type="Int32" Name="Col7" Nullable="false" />
+          <Property Type="Int32" Name="Col8" Nullable="false" />
+          <Property Type="Int32" Name="Col9" Nullable="false" />
+          <Property Type="Int32" Name="Col10" Nullable="false" />
+          <Property Type="Int32" Name="Col11" Nullable="false" />
+          <Property Type="Int32" Name="Col12" Nullable="false" />
+          <Property Type="Int32" Name="Col13" Nullable="false" />
+          <Property Type="Int32" Name="Col14" Nullable="false" />
+          <Property Type="DateTime" Name="Col15" Nullable="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="MigrationDbModelStoreContainer" CdmEntityContainer="MigrationDbEntities">
+          <EntitySetMapping Name="Table1"><EntityTypeMapping TypeName="MigrationDbModel.Table1"><MappingFragment StoreEntitySet="Table1">
+            <ScalarProperty Name="col1" ColumnName="col1" />
+            <ScalarProperty Name="col2" ColumnName="col2" />
+            <ScalarProperty Name="col3" ColumnName="col3" />
+            <ScalarProperty Name="col4" ColumnName="col4" />
+            <ScalarProperty Name="col5" ColumnName="col5" />
+            <ScalarProperty Name="col6" ColumnName="col6" />
+            <ScalarProperty Name="col7" ColumnName="col7" />
+            <ScalarProperty Name="col8" ColumnName="col8" />
+            <ScalarProperty Name="col9" ColumnName="col9" />
+            <ScalarProperty Name="col10" ColumnName="col10" />
+            <ScalarProperty Name="col11" ColumnName="col11" />
+            <ScalarProperty Name="col12" ColumnName="col12" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Table2">
+            <EntityTypeMapping TypeName="MigrationDbModel.Table2">
+              <MappingFragment StoreEntitySet="Table2">
+                <ScalarProperty Name="Reserves" ColumnName="Reserves" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="State" ColumnName="State" />
+                <ScalarProperty Name="City" ColumnName="City" />
+                <ScalarProperty Name="Postcode" ColumnName="Postcode" />
+                <ScalarProperty Name="AddressLine2" ColumnName="AddressLine2" />
+                <ScalarProperty Name="AddressLine1" ColumnName="AddressLine1" />
+                <ScalarProperty Name="Website" ColumnName="Website" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="ACN" ColumnName="ACN" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ManagedBy" ColumnName="ManagedBy" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Table3">
+            <EntityTypeMapping TypeName="MigrationDbModel.Table3">
+              <MappingFragment StoreEntitySet="Table3">
+                <ScalarProperty Name="Col15" ColumnName="Col15" />
+                <ScalarProperty Name="Col14" ColumnName="Col14" />
+                <ScalarProperty Name="Col13" ColumnName="Col13" />
+                <ScalarProperty Name="Col12" ColumnName="Col12" />
+                <ScalarProperty Name="Col11" ColumnName="Col11" />
+                <ScalarProperty Name="Col10" ColumnName="Col10" />
+                <ScalarProperty Name="Col9" ColumnName="Col9" />
+                <ScalarProperty Name="Col8" ColumnName="Col8" />
+                <ScalarProperty Name="Col7" ColumnName="Col7" />
+                <ScalarProperty Name="Col6" ColumnName="Col6" />
+                <ScalarProperty Name="Col5" ColumnName="Col5" />
+                <ScalarProperty Name="Col4" ColumnName="Col4" />
+                <ScalarProperty Name="Col3" ColumnName="Col3" />
+                <ScalarProperty Name="Col2" ColumnName="Col2" />
+                <ScalarProperty Name="Col1" ColumnName="Col1" />
+                <ScalarProperty Name="Desc" ColumnName="Desc" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="Model1">
+        <EntityTypeShape EntityType="MigrationDbModel.Table1" Width="1.5" PointX="0.75" PointY="0.75" Height="3.3263964843749996" IsExpanded="true" />
+        <EntityTypeShape EntityType="MigrationDbModel.Table2" Width="1.5" PointX="3.375" PointY="0.75" Height="3.5186979166666656" />
+        <EntityTypeShape EntityType="MigrationDbModel.Table3" Width="1.5" PointX="5.375" PointY="0.75" Height="4.2879036458333335" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

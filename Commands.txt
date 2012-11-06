@@ -1,0 +1,9 @@
+
+Commands to Install / UnInstall the Windows Service...
+
+installutil service.exe
+installutil /u service.exe
+
+net start MYOBDataMigration
+net stop MYOBDataMigration
+

@@ -1,0 +1,5 @@
+C:\Code\MultiThreadedConversion\MigrationPrototype\Service.Contract\bin\Release\Service.Contract.dll
+C:\Code\MultiThreadedConversion\MigrationPrototype\Service.Contract\bin\Release\Service.Contract.pdb
+C:\Code\MultiThreadedConversion\MigrationPrototype\Service.Contract\obj\Release\ResolveAssemblyReference.cache
+C:\Code\MultiThreadedConversion\MigrationPrototype\Service.Contract\obj\Release\Service.Contract.dll
+C:\Code\MultiThreadedConversion\MigrationPrototype\Service.Contract\obj\Release\Service.Contract.pdb

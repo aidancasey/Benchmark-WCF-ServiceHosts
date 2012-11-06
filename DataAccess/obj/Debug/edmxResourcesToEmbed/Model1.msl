@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MigrationDbModelStoreContainer" CdmEntityContainer="MigrationDbEntities">
+    <EntitySetMapping Name="Table1">
+      <EntityTypeMapping TypeName="MigrationDbModel.Table1">
+        <MappingFragment StoreEntitySet="Table1">
+          <ScalarProperty Name="col1" ColumnName="col1" />
+          <ScalarProperty Name="col2" ColumnName="col2" />
+          <ScalarProperty Name="col3" ColumnName="col3" />
+          <ScalarProperty Name="col4" ColumnName="col4" />
+          <ScalarProperty Name="col5" ColumnName="col5" />
+          <ScalarProperty Name="col6" ColumnName="col6" />
+          <ScalarProperty Name="col7" ColumnName="col7" />
+          <ScalarProperty Name="col8" ColumnName="col8" />
+          <ScalarProperty Name="col9" ColumnName="col9" />
+          <ScalarProperty Name="col10" ColumnName="col10" />
+          <ScalarProperty Name="col11" ColumnName="col11" />
+          <ScalarProperty Name="col12" ColumnName="col12" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Table2">
+      <EntityTypeMapping TypeName="MigrationDbModel.Table2">
+        <MappingFragment StoreEntitySet="Table2">
+          <ScalarProperty Name="Reserves" ColumnName="Reserves" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Postcode" ColumnName="Postcode" />
+          <ScalarProperty Name="AddressLine2" ColumnName="AddressLine2" />
+          <ScalarProperty Name="AddressLine1" ColumnName="AddressLine1" />
+          <ScalarProperty Name="Website" ColumnName="Website" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="ACN" ColumnName="ACN" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ManagedBy" ColumnName="ManagedBy" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Table3">
+      <EntityTypeMapping TypeName="MigrationDbModel.Table3">
+        <MappingFragment StoreEntitySet="Table3">
+          <ScalarProperty Name="Col15" ColumnName="Col15" />
+          <ScalarProperty Name="Col14" ColumnName="Col14" />
+          <ScalarProperty Name="Col13" ColumnName="Col13" />
+          <ScalarProperty Name="Col12" ColumnName="Col12" />
+          <ScalarProperty Name="Col11" ColumnName="Col11" />
+          <ScalarProperty Name="Col10" ColumnName="Col10" />
+          <ScalarProperty Name="Col9" ColumnName="Col9" />
+          <ScalarProperty Name="Col8" ColumnName="Col8" />
+          <ScalarProperty Name="Col7" ColumnName="Col7" />
+          <ScalarProperty Name="Col6" ColumnName="Col6" />
+          <ScalarProperty Name="Col5" ColumnName="Col5" />
+          <ScalarProperty Name="Col4" ColumnName="Col4" />
+          <ScalarProperty Name="Col3" ColumnName="Col3" />
+          <ScalarProperty Name="Col2" ColumnName="Col2" />
+          <ScalarProperty Name="Col1" ColumnName="Col1" />
+          <ScalarProperty Name="Desc" ColumnName="Desc" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

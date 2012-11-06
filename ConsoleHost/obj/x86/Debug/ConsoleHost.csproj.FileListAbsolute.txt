@@ -1,0 +1,12 @@
+C:\Code\MultiThreadedConversion\MigrationPrototype\ConsoleHost\bin\Debug\ConsoleHost.exe.config
+C:\Code\MultiThreadedConversion\MigrationPrototype\ConsoleHost\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Code\MultiThreadedConversion\MigrationPrototype\ConsoleHost\bin\Debug\ConsoleHost.exe
+C:\Code\MultiThreadedConversion\MigrationPrototype\ConsoleHost\bin\Debug\ConsoleHost.pdb
+C:\Code\MultiThreadedConversion\MigrationPrototype\ConsoleHost\bin\Debug\Service.Contract.dll
+C:\Code\MultiThreadedConversion\MigrationPrototype\ConsoleHost\bin\Debug\ServiceImplementation.dll
+C:\Code\MultiThreadedConversion\MigrationPrototype\ConsoleHost\bin\Debug\Service.Contract.pdb
+C:\Code\MultiThreadedConversion\MigrationPrototype\ConsoleHost\bin\Debug\ServiceImplementation.pdb
+C:\Code\MultiThreadedConversion\MigrationPrototype\ConsoleHost\obj\x86\Debug\ConsoleHost.exe
+C:\Code\MultiThreadedConversion\MigrationPrototype\ConsoleHost\obj\x86\Debug\ConsoleHost.pdb
+C:\Code\MultiThreadedConversion\MigrationPrototype\ConsoleHost\bin\Debug\DataAccess.dll
+C:\Code\MultiThreadedConversion\MigrationPrototype\ConsoleHost\bin\Debug\DataAccess.pdb

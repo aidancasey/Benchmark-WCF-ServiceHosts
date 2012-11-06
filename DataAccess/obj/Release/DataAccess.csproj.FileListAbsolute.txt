@@ -1,0 +1,6 @@
+C:\Code\MultiThreadedConversion\MigrationPrototype\DataAccess\bin\Release\DataAccess.dll.config
+C:\Code\MultiThreadedConversion\MigrationPrototype\DataAccess\bin\Release\DataAccess.dll
+C:\Code\MultiThreadedConversion\MigrationPrototype\DataAccess\bin\Release\DataAccess.pdb
+C:\Code\MultiThreadedConversion\MigrationPrototype\DataAccess\obj\Release\ResolveAssemblyReference.cache
+C:\Code\MultiThreadedConversion\MigrationPrototype\DataAccess\obj\Release\DataAccess.dll
+C:\Code\MultiThreadedConversion\MigrationPrototype\DataAccess\obj\Release\DataAccess.pdb
